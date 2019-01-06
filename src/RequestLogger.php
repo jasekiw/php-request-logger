@@ -25,7 +25,7 @@ if (!function_exists('getallheaders'))
 /**
  * Log the current request
  * @param string $filename
- * @return string|bool The message if $return is true or a boolean indicating success.
+ * @return bool A boolean indicating success.
  * @throws \Exception If the server cannot determine the date then an Exception will be thrown.
  */
 function logRequest($filename = __DIR__ . "/request_log.log") {
