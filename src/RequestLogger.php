@@ -28,7 +28,8 @@ if (!function_exists('getallheaders'))
  * @return bool A boolean indicating success.
  * @throws \Exception If the server cannot determine the date then an Exception will be thrown.
  */
-function logRequest($filename = __DIR__ . "/request_log.log") {
+function logRequest($filename = "") {
+    if(!$filename) $filename = __DIR__ . "/request_log.log";
     $message = "";
     $date = new DateTime('America/New_York');
     $message .= sprintf('%s - - [%s] "%s %s"' . PHP_EOL,
