@@ -1,0 +1,18 @@
+{
+    "name": "jasekiw/php-request-logger",
+    "description": "Minimal PHP Request Logger with one require statement",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Gallavin",
+            "email": "jasongallavin@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RequestLogger\\": "src/"
+        }
+    }
+}
