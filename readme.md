@@ -30,5 +30,3 @@ If you want to write it elsewhere just pass the file path to the function.
 ```php
 RequestLogger\logRequest(__DIR__ "/request_log.php");
 ```
-
-Logs write to `request_log.log` in the directory of 
