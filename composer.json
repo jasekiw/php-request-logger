@@ -1,6 +1,6 @@
 {
     "name": "jasekiw/php-request-logger",
-    "description": "Minimal PHP Request Logger with one require statement",
+    "description": "Minimal PHP Request Logger with one require statement or composer require, you choose",
     "type": "library",
     "license": "MIT",
     "authors": [
