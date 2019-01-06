@@ -1,5 +1,7 @@
 # Minimal PHP Request Logger
 
+[![Build Status](https://www.travis-ci.org/jasekiw/php-request-logger.svg?branch=master)](https://www.travis-ci.org/jasekiw/php-request-logger)
+
 
 ## Install
 ##### Quick install for temporary usage
