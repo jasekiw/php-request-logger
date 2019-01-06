@@ -4,7 +4,7 @@
 
 ## Quick Temporary Usage
 
-Copy [RequestLogger.php](src/RequestLogger.php) to the entry directory of your web server.
+Copy [RequestLogger.php](https://raw.githubusercontent.com/jasekiw/php-request-logger/master/src/RequestLogger.php) to the entry directory of your web server.
 Log the request with these two lines.
 ```php
 <?php
